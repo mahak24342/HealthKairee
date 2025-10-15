@@ -1,11 +1,10 @@
 import React from 'react'
-import Dash from './components/Dash'
-import Login from './components/Login'
+import Dashboard from '../components/Dash'
 
 const page = () => {
   return (
     <div>
-      <Login/>
+      <Dashboard/>
     </div>
   )
 }
